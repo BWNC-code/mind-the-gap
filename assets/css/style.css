@@ -1,0 +1,75 @@
+
+/* Font link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* Site default */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: #eff1f3;
+}
+
+/* title and nav bar */
+
+
+#logo {
+    text-decoration: none;
+    color: #eff1f3;
+    background: transparent;
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+#top-bar {
+    background-color: #d77a61;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  /* Style the links inside the navigation bar */
+  #contents ul {
+    margin-right: 30px;
+  }
+
+  #contents li {
+    float: right;
+    list-style-type: none;
+    text-align: center center;
+    padding: 15px;
+    background-clip: border-box;
+}
+  #contents a {
+    display: inline-flex;
+    color: #eff1f3;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #contents a:hover {
+    background-color: #eff1f3;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  #contents a.active {
+    background-color: #eff1f3;
+    color: #d77a61;
+  }
+
+
+
+
