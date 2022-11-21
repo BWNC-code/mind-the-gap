@@ -25,17 +25,15 @@ body {
     float: left;
     font-size: 200%;
     margin-left: 30px;
-    line-height: 75px;
+    line-height: 60px;
     text-align: center;
 }
 
-#top-bar {
+.top-bar {
     background-color: #d77a61;
     overflow: hidden;
-    height: 60px;
+    height: 50px;
     width: 100%;
-    position: absolute;
-    z-index: -1;
   }
   
   /* Style the links inside the navigation bar */
@@ -47,13 +45,13 @@ body {
     float: right;
     list-style-type: none;
     text-align: center center;
-    padding: 15px;
+
     background-clip: border-box;
 }
   #contents a {
     display: inline-flex;
     color: #eff1f3;
-    padding: 14px 16px;
+    padding: 15px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -70,6 +68,10 @@ body {
     color: #d77a61;
   }
 
+/* Hero section */
 
+#hero img{
+    height: 600px;
+}
 
 
