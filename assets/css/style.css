@@ -94,7 +94,36 @@ body {
   padding-top: 40px;
   padding-left: 10px;
   top: 50px;
-  right: 150px;
+  right: 20%;
 
   position: absolute;
+}
+
+/* Statistics section */
+
+.index-stat {
+  letter-spacing: 2px;
+  line-height: 120%;
+  padding: 10px;
+}
+
+.source-ref {
+  font-size: 30%;
+  float: right;
+  padding-right: 20px;
+}
+
+.source-ref a {
+  text-decoration: none;
+  color: black;
+}
+
+#stat-image {
+  height: 200px;
+  width: 200px;
+  background: url(../images/statistic.png) no-repeat center center;
+  background-size: contain;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
