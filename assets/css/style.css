@@ -71,7 +71,7 @@ body {
 /* Hero section */
 
 #hero {
-  height: 600px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -118,6 +118,7 @@ body {
 .source-ref a {
   text-decoration: none;
   color: black;
+  clear: both;
 }
 
 #stat-image {
