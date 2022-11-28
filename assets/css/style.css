@@ -144,3 +144,27 @@ body {
 #stat-image {
   clear: both;
 }
+
+/* Information sections */
+
+.section-title {
+  clear: both;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.center-info {
+  letter-spacing: 2px;
+  line-height: 120%;
+  width: 50%;
+  margin: auto;
+  justify-self: center;
+  padding: 10px;
+}
+
+.highlight-bar {
+  margin: 20px auto;
+  color: white;
+  background-color: #d77a61;
+  font-weight: 600;
+}
