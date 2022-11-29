@@ -26,26 +26,25 @@ body {
   margin-left: 30px;
   line-height: 60px;
   text-align: center;
+  width: 100%;
 }
 
 .top-bar {
   background-color: #d77a61;
   overflow: hidden;
-  height: 50px;
+  height: 100px;
   width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 #contents ul {
   margin-right: 30px;
-  display: flexbox;
+  display: block;
 }
 
 #contents li {
-  float: right;
+  float: left;
   list-style-type: none;
-  text-align: center center;
-  background-clip: border-box;
 }
 
 #contents a {
@@ -53,19 +52,21 @@ body {
   color: #eff1f3;
   padding: 15px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Change the color of links on hover */
 #contents a:hover {
   background-color: #eff1f3;
   color: black;
+  background-clip: border-box;
 }
 
 /* Add a color to the active/current link */
 #contents a.active {
   background-color: #eff1f3;
   color: #d77a61;
+  background-clip: border-box;
 }
 
 /* Hero section */
