@@ -111,7 +111,6 @@ body {
 
 .source-ref {
   font-size: 30%;
-  float: right;
   padding-right: 20px;
 }
 
@@ -119,6 +118,7 @@ body {
   text-decoration: none;
   color: black;
   clear: both;
+  float: right;
 }
 
 #stat-image {
