@@ -132,7 +132,7 @@ body {
 }
 
 .left-stat {
-  float: both;
+  float: left;
   clear: right;
 }
 
