@@ -10,6 +10,8 @@
     <title>Mind the Gap</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/4eb4e2c55a.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -17,21 +19,17 @@
         <a href="index.html">
             <h1 id="logo">Mind The Gap</h1>
         </a>
-
-        <nav id="contents">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="pmdd.html">Educate</a>
-                </li>
-                <li>
-                    <a href="sign-up.html">Join</a>
-                </li>
-            </ul>
-        </nav>
     </header>
+        <!-- credit https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <nav class="nav" id="contents">
+            <a href="index.html" class="active">Home</a>
+            <a href="pmdd.html">Educate</a>
+            <a href="sign-up.html">Join</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+   
     <section id="hero">
         <div id="hero-tag">
             <h2>Is there a gap between men and women's healthcare?</h2>
@@ -68,8 +66,8 @@
             </p>
         </div>
         <div class="source-ref">
-            <p><a
-                    href="https://journals.sagepub.com/doi/full/10.2217/17455057.4.3.237?fbclid=IwAR1-FOkGJ84S1oCqOYXL4aBm7o3uzbG1PKE0K4Yuf8UPJH5z2zCtW9m0p98&" target="_blank">Gender
+            <p><a href="https://journals.sagepub.com/doi/full/10.2217/17455057.4.3.237?fbclid=IwAR1-FOkGJ84S1oCqOYXL4aBm7o3uzbG1PKE0K4Yuf8UPJH5z2zCtW9m0p98&"
+                    target="_blank">Gender
                     Bias in Medicine - Katarina Hamberg, 2008</a></p>
         </div>
     </section>
@@ -83,15 +81,16 @@
             </p>
         </div>
         <div class="center-info">
-            <p>However, there is one <strong>flawed</strong> assumption that forms the basis of modern medicine and healthcare that we
+            <p>However, there is one <strong>flawed</strong> assumption that forms the basis of modern medicine and
+                healthcare that we
                 can attribute the gender gap to:
             </p>
         </div>
         <div class="highlight-bar">
-        <div class="center-info">
-            <p>Research carried out in male participants can be extrapolated to women i.e. if it works for men, it
-                should work for women</p>
-        </div>
+            <div class="center-info">
+                <p>Research carried out in male participants can be extrapolated to women i.e. if it works for men, it
+                    should work for women</p>
+            </div>
         </div>
     </section>
     <section>
@@ -99,11 +98,14 @@
             <h3>The Reality</h3>
         </div>
         <div class="center-info">
-            <p>There are several physiological differences between the sexes, ranging from chromosomes to lung capacity to hormones to reproductive systems 
+            <p>There are several physiological differences between the sexes, ranging from chromosomes to lung capacity
+                to hormones to reproductive systems
             </p>
         </div>
         <div class="center-info">
-            <p>By assuming male and female anatomy are equal, and taking into consideration social and cultural biases during the birth of western medicine, clinical and scientific research to date has primarily been based on male anatomy and the male body’s response to medications
+            <p>By assuming male and female anatomy are equal, and taking into consideration social and cultural biases
+                during the birth of western medicine, clinical and scientific research to date has primarily been based
+                on male anatomy and the male body’s response to medications
             </p>
         </div>
     </section>
