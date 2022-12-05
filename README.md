@@ -11,6 +11,9 @@ There will also be an area to submit stories to be posted to the site at a later
 ## Features
 
 ## Technology Used
+### HTML
+### CSS
+### Javascript
 
 ## Testing
 
@@ -29,3 +32,7 @@ There will also be an area to submit stories to be posted to the site at a later
 ### Remote Deployment
 
 ## Credits/Acknowledgements
+
+Animated navigation menu - Tutorial found on [W3 Schools website](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+
+Fade in and disappear splash screen - Tutorial found on [Conors Bailey's youtube channel](https://www.youtube.com/watch?v=MOlaldp1Fv4)
