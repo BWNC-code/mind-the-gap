@@ -1,6 +1,7 @@
 # MIND THE GAP
 
 ## Introduction
+
 Mind the Gap aims to alert people to the unbalanced approach the medical and pharmaceutical industries have towards womens vs mens healthcare. The site is intended to educate people on what assumptions are made which are harmful, and highlight conditions and treatment they might otherwise be ignorant of. This inital draft of the site will contain the broad message as well as another page on a specific condition as an example to build on in future.
 There will also be an area to submit stories to be posted to the site at a later date.
 
@@ -10,9 +11,21 @@ There will also be an area to submit stories to be posted to the site at a later
 
 ## Features
 
+This section explains each part of the project and the value it brings to acheiving the project goal.
+
+- Splash image
+  - Appears when loading the homepage, this shows a clean view of the website title before fading out
+
+- Navigation Bar
+  - Featured on all three pages, the nav bar includes links to the Home page, Education, and Sign Up pages and is identical in each page to allow for easy navigation.
+  - It includes a media query in it's styling which hides all but the home page link and a menu button to view the other links when on a smaller screen.
+
 ## Technology Used
+
 ### HTML
+
 ### CSS
+
 ### Javascript
 
 ## Testing
