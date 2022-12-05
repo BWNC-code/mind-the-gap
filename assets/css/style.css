@@ -256,6 +256,12 @@ body {
   width: 100%;
 }
 
+.sign-up-container h1, p {
+  margin: auto 20%;
+  text-align: center;
+  padding: 15px;
+}
+
 input[type=text], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
@@ -292,5 +298,27 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .sign-up-container h1, p {
+    margin: auto 10px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
 
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  #sign-up-info {
+    display: block;
+    margin: auto 10px;
+  }
 }
