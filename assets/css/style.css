@@ -101,7 +101,7 @@ body {
   z-index: 10;
   color: #eff1f3;
   text-align: center;
-  line-height: 80vh;  
+  line-height: 50vh;  
 }
 
 @keyframes fadeIn {
@@ -126,7 +126,12 @@ body {
   z-index: -10;
   color: #eff1f3;
   text-align: center;
-  line-height: 80vh;  
+  line-height: 50vh;  
+}
+
+.splash img {
+  
+  height: 50vh;
 }
 
 /* Hero section */
@@ -138,14 +143,6 @@ body {
   position: relative;
 }
 
-#hero-image {
-  height: 90%;
-  width: 100%;
-  background: url(../images/man-woman-seesaw.webp) no-repeat center center;
-  background-size: contain;
-  margin-left: 20%;
-  margin-top: 50px;
-}
 
 #hero-tag {
   font-size: 100%;
