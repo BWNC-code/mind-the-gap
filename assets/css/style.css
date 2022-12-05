@@ -101,7 +101,8 @@ body {
   z-index: 10;
   color: #eff1f3;
   text-align: center;
-  line-height: 50vh;  
+  line-height: 50vh;
+  /* Need larger text on large screen */
 }
 
 @keyframes fadeIn {
@@ -130,14 +131,12 @@ body {
 }
 
 .splash img {
-  
   height: 50vh;
 }
 
 /* Hero section */
 
 #hero {
-  height: 500px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -148,11 +147,9 @@ body {
   font-size: 100%;
   text-transform: uppercase;
   letter-spacing: 4px;
-  height: 20%;
-  padding-top: 20px;
-  padding-left: 10px;
-  left: 15px;
-  position: absolute;
+  padding: 15px 20px;
+  text-align: center;
+  
 }
 
 /* Statistics section */
