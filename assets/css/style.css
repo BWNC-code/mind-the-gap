@@ -162,6 +162,10 @@ body {
   width: 50%;
 }
 
+.index-stat p {
+  text-align: justify;
+}
+
 .source-ref {
   font-size: 30%;
   padding-right: 20px;
@@ -213,6 +217,10 @@ body {
   margin: auto;
   justify-self: center;
   padding: 10px;
+}
+
+.center-info p {
+  text-align: justify;
 }
 
 .highlight-bar {
