@@ -15,6 +15,16 @@ body {
   background-color: #eff1f3;
 }
 
+div {
+  max-width: 1280px;
+  margin: auto;
+}
+
+section {
+  max-width: 1280px;
+  margin: auto;
+}
+
 /* title and nav bar */
 
 
@@ -261,11 +271,13 @@ body {
 /* Sign-up form */
 
 .sign-up-container {
-  width: 100%;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
 }
 
-.sign-up-container h1, p {
-  margin: auto 20%;
+.sign-up-container h1, .sign-up-container p {
+  margin: auto;
   text-align: center;
   padding: 15px;
 }
@@ -285,7 +297,7 @@ label {
 
 #sign-up-info {
   display: block;
-  margin: auto 20%;
+  margin: auto;
 }
 
 
