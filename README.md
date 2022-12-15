@@ -5,7 +5,7 @@
 Mind the Gap aims to alert people to the unbalanced approach the medical and pharmaceutical industries have towards womens vs mens healthcare. The site is intended to educate people on what assumptions are made which are harmful, and highlight conditions and treatment they might otherwise be ignorant of. This inital draft of the site will contain the broad message as well as another page on a specific condition as an example to build on in future.
 There will also be an area to submit stories to be posted to the site at a later date.
 
-![Splash screen hero](/assets/images/splash-page.png "Site splash page")
+![Home page](/assets/images/site-screenshots/home-page.png "Site home page")
 
 ## UI Decisions
 
@@ -13,12 +13,12 @@ There will also be an area to submit stories to be posted to the site at a later
 
 This section explains each part of the project and the value it brings to acheiving the project goal.
 
-- Splash image
-  - Appears when loading the homepage, this shows a clean view of the website title before fading out
-
 - Navigation Bar
   - Featured on all three pages, the nav bar includes links to the Home page, Education, and Sign Up pages and is identical in each page to allow for easy navigation.
   - It includes a media query in it's styling which hides all but the home page link and a menu button to view the other links when on a smaller screen.
+
+![Nav Bar](/assets/images/site-screenshots/nav-bar.png "Navigation bar")  
+![Nav Bar on small screen](/assets/images/site-screenshots/nav-bar-small.png "Navigation bar on small screens")
 
 ## Technology Used
 
