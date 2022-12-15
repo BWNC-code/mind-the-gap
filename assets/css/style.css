@@ -262,6 +262,21 @@ section {
   padding-left: 10%;
 }
 
+.center-list ul > li {
+  padding-top: 20px;
+}
+
+/* Section separation */
+
+.section-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-image img {
+  max-width: 100%;
+}
 
 
 /* Sign-up form */
