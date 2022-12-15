@@ -243,11 +243,12 @@ section {
   line-height: 120%;
 }
 
-.center-list ol > li {
+.center-list ol>li {
   counter-increment: issue;
   margin-bottom: 20px;
 }
-.center-list ol > li:before {
+
+.center-list ol>li:before {
   margin-right: 10px;
   content: counter(issue);
   background: #3a3a3a;
@@ -262,7 +263,7 @@ section {
   padding-left: 10%;
 }
 
-.center-list ul > li {
+.center-list ul>li {
   padding-top: 20px;
 }
 
