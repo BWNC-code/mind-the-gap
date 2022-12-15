@@ -119,21 +119,42 @@ section {
 
 /* Statistics section */
 
+.stat-row {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.stat-row:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
 .index-stat {
   letter-spacing: 2px;
   line-height: 120%;
   margin: 15px;
   padding: 10px;
   width: 50%;
+  
 }
 
 .index-stat p {
   text-align: justify;
 }
 
+.stat-image img {
+  height: 200px;
+  margin: 15px;
+  padding: 10px;
+}
+
 .source-ref {
   font-size: 30%;
   padding-right: 20px;
+  text-decoration: none;
+  color: black;
+  clear: both;
+  float: right;
 }
 
 .source-ref a {
@@ -143,29 +164,6 @@ section {
   float: right;
 }
 
-#stat-image {
-  height: 200px;
-  width: 200px;
-  background: url(../images/statistic.png) no-repeat center center;
-  background-size: contain;
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.left-stat {
-  float: left;
-  clear: right;
-}
-
-.right-stat {
-  clear: both;
-  float: right;
-}
-
-#stat-image {
-  clear: both;
-}
 
 /* Information sections */
 
