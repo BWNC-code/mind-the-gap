@@ -78,7 +78,10 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
+  .nav a:not(:first-child) {
+    display: none;
+  }
+
   .nav a.icon {
     float: right;
     display: block;
@@ -93,6 +96,7 @@ section {
     right: 0;
     top: 0;
   }
+
   .nav.responsive a {
     float: none;
     display: block;
@@ -115,7 +119,7 @@ section {
   letter-spacing: 4px;
   padding: 15px 20px;
   text-align: center;
-  
+
 }
 
 /* Statistics section */
@@ -136,7 +140,7 @@ section {
   margin: 15px;
   padding: 10px;
   width: 50%;
-  
+
 }
 
 .index-stat p {
@@ -222,6 +226,44 @@ section {
   }
 }
 
+/* Issues section */
+
+.center-list {
+  letter-spacing: 2px;
+  width: 80%;
+  margin: auto;
+  justify-self: center;
+  padding: 10px;
+}
+
+.center-list ol {
+  text-align: justify;
+  list-style: none;
+  counter-reset: item;
+  line-height: 120%;
+}
+
+.center-list ol > li {
+  counter-increment: issue;
+  margin-bottom: 20px;
+}
+.center-list ol > li:before {
+  margin-right: 10px;
+  content: counter(issue);
+  background: #3a3a3a;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+
+.center-list ul {
+  padding-left: 10%;
+}
+
+
+
 /* Sign-up form */
 
 .sign-up-container {
@@ -244,7 +286,10 @@ section {
   padding: 15px 20px;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type=text],
+input[type=email],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -280,13 +325,18 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .sign-up-container h1, p {
+
+  .sign-up-container h1,
+  p {
     margin: auto 10px;
     text-align: center;
     padding: 15px;
   }
-  
-  input[type=text], input[type=email], select, textarea {
+
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -298,7 +348,7 @@ input[type=submit]:hover {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  
+
   #sign-up-info {
     display: block;
     margin: auto 10px;
@@ -327,7 +377,7 @@ footer p {
   text-align: center;
 }
 
-.footer-links > li {
+.footer-links>li {
   display: inline;
 }
 
