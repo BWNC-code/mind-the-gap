@@ -230,10 +230,18 @@ section {
   margin: auto;
 }
 
-.sign-up-container h1, .sign-up-container p {
+.sign-up-container h1 {
   margin: auto;
   text-align: center;
-  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 15px 20px;
+}
+
+.sign-up-container p {
+  margin: auto;
+  text-align: center;
+  padding: 15px 20px;
 }
 
 input[type=text], input[type=email], select, textarea {
