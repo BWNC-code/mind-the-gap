@@ -23,6 +23,7 @@ div {
 section {
   max-width: 1280px;
   margin: auto;
+  margin-bottom: 60px;
 }
 
 /* title and nav bar */
@@ -294,4 +295,36 @@ input[type=submit]:hover {
     display: block;
     margin: auto 10px;
   }
+}
+
+/* Footer */
+
+footer {
+  background-color: #d77a61;
+  overflow: hidden;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  text-align: right;
+  float: right;
+  clear: both;
+  font-size: 20%;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links > li {
+  display: inline;
+}
+
+.footer-links i {
+  margin: 10px;
+  padding: 5px;
+  color: #3a3a3a;
 }
