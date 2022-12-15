@@ -147,8 +147,14 @@ section {
   text-align: justify;
 }
 
+.stat-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .stat-image img {
-  height: 200px;
+  height: 20vh;
   margin: 15px;
   padding: 10px;
 }
@@ -167,6 +173,26 @@ section {
   color: black;
   clear: both;
   float: right;
+}
+
+@media screen and (max-width:600px) {
+  .stat-row {
+    flex-direction: column;
+  }
+
+  .stat-row:nth-of-type(odd) {
+    flex-direction: column;
+  }
+
+  .stat-image img {
+    height: 10vh;
+    margin: 15px;
+    padding: 0;
+  }
+
+  .index-stat {
+    width: auto;
+  }
 }
 
 
