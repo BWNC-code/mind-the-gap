@@ -47,6 +47,7 @@ This section explains each part of the project and the value it brings to acheiv
 - __Sign-up Page__
 
   - This page contains a form by which users can submit contact information to recieve a newsletter of updates or new information on womens health issues.
+  - As there is not currently a database linked to the site, on submission the form redirects to a thank you page which explains the site is still missing this feature and directs them to the footer links for more information before redirecting to the home page after 10 seconds.
   - This page is found in the sign-up.html file
 
 ![Sign-up](/assets/images/site-screenshots/sign-up.png "Sign-up page")
@@ -66,7 +67,11 @@ This section explains each part of the project and the value it brings to acheiv
 ## Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+  - [Home Page]
+  - [PMDD Page]
+  - [Sign-up form page]
+  - [Thank you page]
 
   link each page validation
 - CSS
