@@ -312,6 +312,7 @@ section {
   width: 80%;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 .sign-up-container h1 {
