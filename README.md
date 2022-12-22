@@ -14,7 +14,7 @@
   - [Javascript](#javascript)
 - [Testing](#testing)
 - [Browser Compatibility Checks](#browser-compatibility-checks)
-  - [Google Chrome](#google-chrome)
+  - [Microsoft Edge](#microsoft-edge)
   - [Firefox Dev Edition](#firefox-developer-edition)
   - [Opera](#opera)
 - [Manual Feature Testing](#manual-feature-testing)
