@@ -91,8 +91,8 @@ This section explains each part of the project and the value it brings to acheiv
 
 ## Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+- HTML  
+  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
   - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Findex.html)
   - [PMDD Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Fpmdd.html)
   - [Sign-up form page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Fsign-up.html)
@@ -104,6 +104,17 @@ This section explains each part of the project and the value it brings to acheiv
 - Accessibility
   - I used dev tools lighthouse to confirm performance, readability and best practices for the site
   ![Lighthouse](/assets/images/site-screenshots/lighthouse.png)
+
+### Responsiveness / Device Testing
+
+The site was tested on the following devices;
+
+- HP Elitebook 840
+- AOC Q27V4EA - 27 Inch QHD Monitor
+- Apple iPhone 13 Pro max
+- Google Chrome Developer Tools - simulator for all different device options as well as using the adjustable sizing options
+
+The website functioned as expected in all of these devices.
 
 ## Browser Compatibility Checks
 
