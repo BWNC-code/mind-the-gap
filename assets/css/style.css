@@ -315,7 +315,7 @@ section {
   margin-bottom: 80px;
 }
 
-.sign-up-container h1 {
+.sign-up-container h2 {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -369,8 +369,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 600px) {
 
-  .sign-up-container h1,
-  p {
+  .sign-up-container h2, p {
     margin: auto 10px;
     text-align: center;
     padding: 15px;
