@@ -118,11 +118,11 @@ The website functioned as expected in all of these devices.
 
 ## Browser Compatibility Checks
 
-### Google Chrome
+### Microsoft Edge
 
-The latest deployment of the site was loaded onto Google Chrome with no visible issues
+The latest deployment of the site was loaded onto Microsoft Edge (a Chromium browser) with no visible issues
 
-![Chrome](/assets/images/site-screenshots/chrome.png "Google Chrome")
+![Edge](/assets/images/site-screenshots/edge.png "Microsoft Edge")
 
 ### Firefox Developer Edition
 
