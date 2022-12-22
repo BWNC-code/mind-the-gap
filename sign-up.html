@@ -35,7 +35,7 @@
         <h2>Newsletter Sign-Up</h2>
         <p>If you would like to receive more information and updates on women's health, please sign up below:</p>
         <form class="sign-up-form" action="thank-you.html">
-            <div id="sign-up-info">
+            <fieldset id="sign-up-info">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="lname">Last name:</label><br>
@@ -43,24 +43,24 @@
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br>
                 <p>What areas of womens health are you interested in hearing about?</p><br>
-                <input type="checkbox" id="birth-control" name="topics" value="birth-control">
-                <label for="birth-control">Birth control, sexually transmitted infections (STIs), and
+                <label for="birth-control"><input type="checkbox" id="birth-control" name="topics" value="birth-control">
+                Birth control, sexually transmitted infections (STIs), and
                     gynecology</label><br>
-                <input type="checkbox" id="cancer" name="topics" value="cancer">
-                <label for="cancer">Breast cancer, ovarian cancer, and other female cancers</label><br>
-                <input type="checkbox" id="mammography" name="topics" value="mammography">
-                <label for="mammography">Mammography</label><br>
-                <input type="checkbox" id="menopause" name="topics" value="menopause">
-                <label for="menopause">Menopause and hormone therapy</label><br>
-                <input type="checkbox" id="osteo" name="topics" value="osteo">
-                <label for="osteo">Osteoporosis</label><br>
-                <input type="checkbox" id="pregnancy" name="topics" value="pregnancy">
-                <label for="pregnancy">Pregnancy and childbirth</label><br>
-                <input type="checkbox" id="sex-health" name="topics" value="sex-health">
-                <label for="sex-health">Sexual Health</label><br>
-                <input type="checkbox" id="heart-disease" name="topics" value="heart-disease">
-                <label for="heart-disease">Women and heart disease</label><br>
-            </div>
+                    <label for="cancer"><input type="checkbox" id="cancer" name="topics" value="cancer">
+                Breast cancer, ovarian cancer, and other female cancers</label><br>
+                <label for="mammography"><input type="checkbox" id="mammography" name="topics" value="mammography">
+                Mammography</label><br>
+                <label for="menopause"><input type="checkbox" id="menopause" name="topics" value="menopause">
+                Menopause and hormone therapy</label><br>
+                <label for="osteo"><input type="checkbox" id="osteo" name="topics" value="osteo">
+                Osteoporosis</label><br>
+                <label for="pregnancy"><input type="checkbox" id="pregnancy" name="topics" value="pregnancy">
+                Pregnancy and childbirth</label><br>
+                <label for="sex-health"><input type="checkbox" id="sex-health" name="topics" value="sex-health">
+                Sexual Health</label><br>
+                <label for="heart-disease"><input type="checkbox" id="heart-disease" name="topics" value="heart-disease">
+                Women and heart disease</label><br>
+            </fieldset>
             <input type="submit" value="Submit" onclick="redirect()">
         </form>
     </section>
