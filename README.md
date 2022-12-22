@@ -15,6 +15,8 @@
 - [Testing](#testing)
 - [Browser Compatibility Checks](#browser-compatibility-checks)
   - [Google Chrome](#google-chrome)
+  - [Firefox Dev Edition](#firefox-developer-edition)
+  - [Opera](#opera)
 - [Manual Feature Testing](#manual-feature-testing)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
@@ -98,6 +100,10 @@ This section explains each part of the project and the value it brings to acheiv
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Accessibility
+  - I used dev tools lighthouse to confirm performance, readability and best practices for the site
+  ![Lighthouse](/assets/images/site-screenshots/lighthouse.png)
 
 ## Browser Compatibility Checks
 
