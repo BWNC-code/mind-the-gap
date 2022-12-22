@@ -2,10 +2,33 @@
 
 ![amiresponsive](/assets/images/site-screenshots/am-i-responsive.png "Site responsiveness test")
 
+## Table of contents
+
+- [Introduction](#introduction)
+- [UI Decisions](#ui-decisions)
+- [Features](#features)
+- [Features left to implement](#features-left-to-implement)
+- [Technology Used](#technology-used)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Javascript](#javascript)
+- [Testing](#testing)
+- [Browser Compatibility Checks](#browser-compatibility-checks)
+  - [Google Chrome](#google-chrome)
+- [Manual Feature Testing](#manual-feature-testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+  - [Cloning and Forking](#cloning-and-forking)
+  - [Local Deployment](#local-deployment)
+  - [Remote Deployment](#remote-deployment)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
+
+[Table of contents generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/)
+
 ## Introduction
 
-Mind the Gap aims to alert people to the unbalanced approach the medical and pharmaceutical industries have towards womens vs mens healthcare. The site is intended to educate people on what assumptions are made which are harmful, and highlight conditions and treatment they might otherwise be ignorant of. This inital draft of the site will contain the broad message as well as another page on a specific condition as an example to build on in future.
-There will also be an area to sign up to a newsletter for further information and updates.
+Mind the Gap aims to alert people to the unbalanced approach the medical and pharmaceutical industries have towards womens vs mens healthcare. The site is intended to educate people on what assumptions are made which are harmful, and highlight conditions and treatment they might otherwise be ignorant of. This inital draft of the site will contain the broad message as well as another page on a specific condition as an example to build on in future.  
+There is also an area to sign up to a newsletter for further information and updates.
 
 ![Home page](/assets/images/site-screenshots/home-page.png "Site home page")
 
@@ -68,12 +91,11 @@ This section explains each part of the project and the value it brings to acheiv
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
-  - [Home Page]
-  - [PMDD Page]
-  - [Sign-up form page]
-  - [Thank you page]
+  - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Findex.html)
+  - [PMDD Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Fpmdd.html)
+  - [Sign-up form page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Fsign-up.html)
+  - [Thank you page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2Fthank-you.html)
 
-  link each page validation
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbwnc-code.github.io%2Fmind-the-gap%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -81,11 +103,21 @@ This section explains each part of the project and the value it brings to acheiv
 
 ### Google Chrome
 
-The latest deployment of the site was loaded onto chrome with no visible issues
+The latest deployment of the site was loaded onto Google Chrome with no visible issues
 
 ![Chrome](/assets/images/site-screenshots/chrome.png "Google Chrome")
-firefox dev edition
-opera
+
+### Firefox Developer Edition
+
+The latest deployment of the site was loaded onto Firefox developer edition with no visible issues
+
+![Firefox Developer Edition](/assets/images/site-screenshots/firefox-dev.png)
+
+### Opera
+
+The latest deployment of the site was loaded onto Opera with no visible issues
+
+![Opera](/assets/images/site-screenshots/opera.png)
 
 ## Manual Feature Testing
 
@@ -111,13 +143,19 @@ No unsolved bugs
 
 This section describes the process of obtaining a copy of this websites files in a new repository, running an environment to work on the site, and deploying to a live platform
 
-### Cloning/Forking
+### Cloning and Forking
 
+-At the top of the repository page, select fork and choose a name for the new repository to create a copy
 
+-Alternatively select code above the file viewer and either use the link to pull a copy of the code or download the code as a zip file
 
 ### Local Deployment
 
-- 
+- Navigate to [Gitpod](https://gitpod.io/)
+- Login using a Github account
+- Download and install the Gitpod browser extension
+- Return to the repository
+- Select the green Gitpod button above the file viewer
 
 ### Remote Deployment
 
@@ -129,7 +167,7 @@ This section describes the process of obtaining a copy of this websites files in
 
 The live link can be found [here](https://bwnc-code.github.io/mind-the-gap/index.html)
 
-## Credits/Acknowledgements
+## Credits and Acknowledgements
 
 Animated navigation menu - Tutorial found on [W3 Schools website](https://www.w3schools.com/howto/howto_js_sidenav.asp)
 
